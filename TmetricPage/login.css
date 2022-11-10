@@ -1,0 +1,136 @@
+l#login>div{
+    width:50%;
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    text-align: center;
+    background-color:#f2f5fc;
+}
+/* h2{
+    width:50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin:auto;
+} */
+#login{
+    border:1px solid black;
+    width:30%;
+    margin:auto;
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:60px 10px;
+    border:1px solid rgb(185, 181, 181);
+    border-radius: 20px;
+}
+form>label,input{
+    display: block;
+
+
+}
+form>input{
+    width:100%;
+    padding:10px 6px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    border:1px solid rgb(185, 181, 181);
+}
+form>label{
+    font-size: 20px;
+}
+#button{
+    padding:10px 166px;
+    font-size: 15px;
+    background-color: #3070f0;
+    color:white;
+    border: none;
+}
+form~button{
+    padding:10px 120px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    border-radius:12px ;
+    background: transparent;
+    font-weight: lighter;
+    border:1px solid rgb(185, 181, 181);
+
+}
+#login>:nth-child(4){
+    padding:10px 126px;
+}
+#login>:nth-child(5){
+    padding:10px 119px;
+}
+#login>:nth-child(6){
+    padding:10px 130px;
+    margin-bottom: 30px;
+}
+#cant{
+    display: flex;
+    justify-content: space-between;
+    margin:auto;
+    width:85%;
+}
+#cant>a{
+   text-decoration: none;
+   color:#3070f0;
+   font-weight: bold;
+}
+#login>:nth-child(2){
+    margin-bottom: 30px;
+}
+form>label{
+    font-weight: lighter;
+}
+#parent{
+    display: flex;
+    width:80%;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+}
+#parent>div{
+width: 40%;;
+}
+#parent>:nth-child(2)>img{
+    width:100%;
+    height:100%;
+}
+form>:nth-child(7){
+    display:inline-flex;
+    width:6%;
+}
+
+form>:nth-child(8){
+    display:inline-flex;
+    font-size: 17px;
+}
+
+form>:nth-child(8)>a{
+   text-decoration: none;
+   color:#3070f0;
+   font-weight: lighter;
+   font-size: 17px;
+
+}
+
+form>input{
+    text-align: start;
+    /* border-color: #3070f0; */
+}
+#already{
+    align-items: center;
+    margin:auto;
+    width:100%;
+    display: flex;
+    justify-content: center;
+
+}
+#already>p>a{
+text-decoration: none;
+color: #3070f0;
+font-size: 15px;
+font-weight: bolder;
+}
