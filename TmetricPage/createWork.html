@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #parent{
+            display:flex;
+            width:80%;
+            justify-content: center;
+            margin:auto;
+            border:1px solid rgb(217, 211, 211);
+            /* padding:20px; */
+            border-radius: 10px;
+        }
+        #parent>:nth-child(1){
+            width:55%;
+            height: 100vh;
+            padding:20px;
+        }
+        #parent>:nth-child(2){
+            width:60%;
+            height: 100vh;
+            background-color:#f2f5fc;
+        }
+        #parent>:nth-child(1)>:nth-child(1){
+            display: flex;
+           align-items: center;
+           justify-content: center;
+           flex-direction: column;
+           margin:auto;
+           width:100%;
+        }
+        #parent>:nth-child(1)>:nth-child(2){
+            display: flex;
+           align-items: flex-start;
+           justify-content: center;
+           flex-direction: column;
+           margin:auto;
+           width:85%;
+           font-size: 20px;
+           font-weight: lighter;
+        }
+        form{
+            display: flex;
+           align-items: flex-start;
+           justify-content: center;
+           flex-direction: column;
+           margin:auto;
+           margin-left: 20px;
+           width:100%;
+        }
+        form>label,input{
+            display: block;
+            width:70%;
+          
+            margin-top: 10px;
+            padding:8px 10px;
+            border-radius: 8px;
+            /* border:; */
+        }
+        form>input{
+            border:1px solid rgb(191, 191, 191);
+        }
+        form+label{
+            display: block;
+            margin-bottom: 15px;
+            margin-top: 15px;
+            margin-left:22px;
+        }
+        select{
+            width:75%;
+            margin-left:22px;
+            padding:8px 10px;
+            border-radius: 7px;
+        }
+        select+div{
+            width:100%;
+            display:flex;
+            justify-content:center ;
+            margin-bottom: -10px;
+        }
+        select+div+div{
+            width:70%;
+            display:flex;
+            align-items: flex-start;
+            margin-left: 20px;
+        }
+        select+div+div+div{
+            width:50%;
+            display:flex;
+            /* justify-content:space-around; */
+            align-items: flex-start;
+            /* margin:auto; */
+            /* margin-left: 40px; */
+        }
+        select+div+div+div>div{
+            display: flex;
+            align-items: center;
+            margin-left: 10px;
+        }
+        select+div+div+div+button{
+           width:75%;
+           padding:7px 0;
+           color: white;
+           background-color:#0E60B2;
+           font-size: 15px;
+           text-align: center;
+           border: none;
+           border-radius: 8px;
+           margin-top: 10px;
+           margin-left: 8px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div>
+            <div>
+                <img src="https://tmetric.com/images/v3/tmetric_logo_with_text.svg" alt="">
+                <h2>Create your workspace</h2>
+            </div>
+            <div>
+                <p>Fill in the fields below and get a new workspace</p>
+            </div>
+            <div>
+                <form action="">
+                    <label for="">Company Name</label>
+                    <input type="text" name="" id="" placeholder="My Company">
+                </form>
+                <label for="filter">Size</label>
+                <select id="filter">
+                    <option value="">please Select</option>
+                    <option value="Low">Just Me</option>
+                    <option value="Medium">2-5</option>
+                    <option value="High">6-9</option>
+                    <option value="Medium">10-39</option>
+                    <option value="High">40-99</option>
+                    <option value="Medium">100+</option>
+                  </select>
+                  <div>
+                    <img src="" alt="">
+                    <p>Generate  demo data for work space</p>
+                  </div>
+                  <div>
+                    <p>Please email updates to keep mwe infomed about new features, usage tips, feedback surveys and special offers.</p>
+                  </div>
+                  <div>
+                    <div>
+                        <input type="checkbox" name="" id="yes_checkbox">
+                        <label for="yes_checkbox">Yes</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="" id="No_checkbox">
+                        <label for="No_checkbox">No</label>
+                    </div>
+                  </div>
+                    <button>Create</button>
+            </div>
+        </div>
+            <div>
+                <img src="https://app.tmetric.com/images/side_image_register_select_workspace.svg" alt="">
+            </div>
+            
+        
+    </div>
+</body>
+</html>
