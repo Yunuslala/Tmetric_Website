@@ -8,30 +8,30 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div id="head_logo">
+    <div class="head_logo" >
         <div>
-            <img src="https://tmetric.com/images/v3/tmetric_logo_with_text.svg" alt="">
+            <img id="logoImg" src="https://tmetric.com/images/v3/tmetric_logo_with_text.svg" alt="">
         <button></button>
         </div>
     <div id="head_nav">
-        <button >Why Tmetric <span><i class="fa-light fa-angle-down"></i></span></button>
-        <button >Apps and Intrgration</button>
-        <a href="index.pricing">pricing</a>
-        <a href="index.support">Support</a>
-        <a href="index.blog">Blog</a>
+        <button>Why Tmetric <span><i class="fa-light fa-angle-down"></i></span></button>
+        <button>Apps and Intrgration</button>
+        <a href="pricing.html">pricing</a>
+        <a href="support.html">Support</a>
+        <a href="blog.html">Blog</a>
     </div>
     <div>
-        <a href="loginpage.html">Login</a>
-         <button><a href="signup.html"></a>SignUp</button>
+        <a href="login.html">Login</a>
+        <a id="sign" href="signUp.html"><button>Sign Up</button></a> 
     </div>
 </div>
-    <div id="mid_container">
+    <div  id="mid_container">
         <div>
             <p>Empower your Team with Prime Tracking</p>
             <h3>TmeatricStramline  your team work so can focus on what mattters</h3>
-            <input type="text" name="" id="" placeholder="Enter your email address">
+            <input type="email" name="" id="input" placeholder="Enter your email address">
             <div>
-                <button>Get Started</button>
+                <button id="get">Get Started</button>
                 <P>Fully Functional 30-Day Trial</P>
             </div>
         </div>
@@ -48,34 +48,51 @@
    </div>
     <h1>Best time tracking features for your business</h1>
     <div id="down">
-        <div>
+        <div id="img">
             <img src="https://tmetric.com/media/1kxfndjp/img-advantages.svg" alt="">
         </div>
     <div id="button">
-        <button>
+        <button class="button">
             <img src="https://tmetric.com/media/2p4n4oyc/icon-timer-blue.svg" alt="">
-            <h2>Time Tracking</h2>
-
+            <div>
+                <div class="h2"><h2>Time Tracking</h2></div>
+                <div class="childDiv"></div>
+            </div>
         </button>
-        <button>
-            <img src="https://tmetric.com/media/1niddz51/icon-project-blue.svg" alt="">
-            <h2>Project management</h2>
+        <button class="button">
+            <img   src="https://tmetric.com/media/1niddz51/icon-project-blue.svg" alt="">
+            <div>
+                <div class="h2"><h2>Project management</h2></div>
+                <div class="childDiv"></div>
+            </div>
         </button>
-        <button>
+        <button class="button">
             <img src="https://tmetric.com/media/2gxihhdu/icon-team-blue.svg" alt="">
-        <h2>Team Management</h2>
+           <div>
+            <div class="h2"><h2>Team Management</h2></div>
+            <div class="childDiv"></div>
+           </div>
         </button>
-        <button>
-            <img src="https://tmetric.com/media/s4koycnp/icon-invoice-blue.svg" alt="">
-            <h2>Billing & Invoicing</h2>
+        <button class="button">
+            <img src="https://tmetric.com/media/s4koycnp/icon-invoice-blue.svg" alt="">      
+            <div>
+               <div class="h2"><h2>Billing & Invoicing</h2></div> 
+               <div class="childDiv"></div>
+            </div>
         </button>
-        <button>
+        <button class="button">
             <img src="https://tmetric.com/media/yoblhiut/icon-reports-blue.svg" alt="">
-        <h2>Reporting</h2>
+        <div>
+            <div class="h2"><h2>Reporting</h2></div>
+            <div class="childDiv"></div>
+        </div>
         </button>
-        <button>
+        <button class="button">
             <img src="https://tmetric.com/media/cajpa4uy/icon-time-off-blue.svg" alt="">
-            <h2>Time off</h2>
+            <div>
+                <div class="h2"><h2>Time off</h2></div>
+                <div class="childDiv"></div>
+            </div>
         </button>
       </div>
     </div>
@@ -92,7 +109,7 @@
                 <li><a href="">50+ integrations</a></li>
                 <li><a href="">work schedule</a></li>
             </ul>
-            <button>Start Free Trial <span><a href="signup.html"></a></span></button>
+            <button class="start">Start Free Trial</button>
         </div>
 
             <img src="https://tmetric.com/media/kssowlxe/img-activity-cases.svg" alt="">
@@ -109,7 +126,7 @@
                 <li>accurate payroll</li>
                 <li>detailed reports</li>
             </ul>
-            <button>Start Free Trial <span><a href="signup.html"></a></span></button>
+            <button class="start">Start Free Trial</button>
         </div>
     </div>
     <div id="lower3">
@@ -121,7 +138,7 @@
                 <li>time off calendar</li>
                 <li>pto calculations</li>
             </ul>
-            <button>Start Free Trial <a href="signup.html"></a></button>
+            <button class="start">Start Free Trial </button>
         </div>
         <img src="https://tmetric.com/media/mlzbtxv5/time-off-calendar-case.svg" alt="">
     </div>
@@ -129,7 +146,7 @@
         <h1>Integrate time trackerr tool with 50+ popular services</h1>
         <h3>TMetric integrates with dozens of services, which lets you measure progress and activity in any tool you use</h3>
         <div>
-            <button>Start Free Trial</button>
+            <button class="start">Start Free Trial</button>
             <a href="">Explore All Integrations </a>
         </div>
     </div>
@@ -185,30 +202,30 @@
         </div>
         <div>
             <div>
-                <p>We ultimately went with TMetric because it checked a lot of items on our want list 
+                <p id="text">We ultimately went with TMetric because it checked a lot of items on our want list 
                     its both a desktop and web app, and has an API taht we were able to integrate with 
                     our buisness management software. while that was the biggest selling point we also 
                     really like the user intrface, the chrome extension, and built-in integration with Jira</p>
                         <div>
                             <div>
-                                <h3>BizStream team</h3>
+                                <h3 id="clientName">BizStream team</h3>
                                 <img src="https://tmetric.com/media/j2klt5pd/img-rating-5.svg" alt="">
                             </div>
                             <a href="">Read Full Story</a>
                         </div>
              </div>
-             <div>
-                <img src="https://tmetric.com/media/hznb1sgs/photo-software-developers.png" alt="">
+             <div id="imgClient">
+                <img  src="https://tmetric.com/media/hznb1sgs/photo-software-developers.png" alt="">
            </div>
         </div> 
     </div>   
     <div id="marketlinks">
-        <a href="">Software developers</a>
-        <a href="">Marketers</a>
-        <a href="">Designer</a>
-        <a href="">Contractors</a>
-        <a href="">Consultants</a>
-        <a href="">Freelancers</a>
+        <button>Software developers</button> 
+        <button>Marketers</button>
+        <button>Designer</button>
+        <button>Contractors</button>
+        <button>Consultants</button>
+        <button>Freelancers</button>
     </div>
     <div id="review">
         <h1>Read Hundreds of Reviews</h1>
@@ -276,17 +293,15 @@
     </div>
     <div id="description">
         <h1>Make time work for you!</h1>
-        <button>Start Free Trial</button>
+        <button class="start">Start Free Trial</button>
         <h3>Powered by devart A software vendor with 20 years of experrience</h3>
     </div>
-    <div id="descriptionPage">
-        <div>
-            <img src="https://tmetric.com/images/v3/tmetric_logo_with_text.svg" alt="">
-        </div>
-    
+    <div id="decriptionPage">
+        <img src="https://tmetric.com/images/v3/tmetric_logo_with_text.svg" alt="">
         <div>
             <h3>Applications</h3>
             <div>
+                
                 <img src="https://tmetric.com/download" alt="">
                 <a href="">Desktop</a>
             </div>
@@ -339,6 +354,6 @@
         </div>
     </div>
 
-
 </body>
 </html>
+<script src="index.js"></script>
