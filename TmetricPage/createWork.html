@@ -120,7 +120,7 @@
     <div id="parent">
         <div>
             <div>
-                <img src="https://tmetric.com/images/v3/tmetric_logo_with_text.svg" alt="">
+                <img id="logoImg" src="https://tmetric.com/images/v3/tmetric_logo_with_text.svg" alt="">
                 <h2>Create your workspace</h2>
             </div>
             <div>
@@ -169,3 +169,8 @@
     </div>
 </body>
 </html>
+<script>
+    document.querySelector("#logoImg").addEventListener("click",function(){
+        window.location="index.html"
+    })
+</script>
