@@ -147,6 +147,34 @@ function bgColor(){
 }
 window.addEventListener("scroll",bgColor);
 
+let count=0;
+document.querySelector("#drop").addEventListener("click",function(){
+count++;
+    let div=document.querySelector("#dropDown");
+    if(count%2==1){
+        div.removeAttribute("id");
+        div.classList.add("appear");
+        console.log(count);
+    
+
+    }
+    else{
+        // div.classList.remove("appear")
+        div.setAttribute("id","dropDown")
+        console.log(count);
+
+    }
+
+})
+
+
+
+
+
+
+
+
+
 document.querySelector("#get").addEventListener("click",function(){
    let ema= document.querySelector("input").value;
    if(ema==""){

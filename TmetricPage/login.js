@@ -8,7 +8,7 @@ event.preventDefault();
         // alert("loginSuccesful")
         window.location="workspace.html"
     }else{
-        alert("Wrong Credentials")
+        alert("Wrong Credentials or You did not signUp yet")
     }
 })
 
@@ -31,3 +31,7 @@ function display(res){
         return false;
     }
 }
+
+document.querySelector("#logoImg").addEventListener("click",function(){
+    window.location="index.html"
+})

@@ -24,3 +24,7 @@ document.querySelector("form").addEventListener("submit",function(event){
 let btn=document.querySelector("#button").addEventListener("click",function(){
     
 })
+
+document.querySelector("#logoImg").addEventListener("click",function(){
+    window.location="index.html"
+})
